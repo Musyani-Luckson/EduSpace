@@ -1,0 +1,71 @@
+.MainNavBar {
+  display: grid;
+  grid-template-rows: 4rem auto 4rem;
+}
+
+.navItem {
+  grid-template-columns: 3rem auto;
+  display: grid;
+  height: 3rem;
+}
+
+.iconDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navLabelDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.topMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.bottomMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+/* Mobile Devices (portrait and landscape) up to 767px */
+@media only screen and (max-width: 567px) {
+  .MainNavBar {
+    display: none;
+  }
+}
+/* Tablets and Min Laptops 768px */
+@media only screen and (min-width: 568px) {
+  .navLabelDiv {
+    display: none;
+  }
+}
+/* Desktops and larger screens 1340px*/
+@media only screen and (min-width: 840px) {
+  .navLabelDiv {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+}
+
+.MainNavBarTop {
+  top: 0;
+  position: sticky;
+}
+
+.MainNavBarBottom {
+  bottom: 0;
+  position: sticky;
+}

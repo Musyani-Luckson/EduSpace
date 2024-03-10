@@ -1,0 +1,52 @@
+.HomeHeader {
+  position: sticky;
+  top: 0;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.HomeActivity {
+  display: grid;
+  grid-template-rows: 4rem 1fr;
+}
+/* Mobile Devices (portrait and landscape) up to 767px */
+@media only screen and (max-width: 567px) {
+  .HomeHeaderRightMenu {
+    display: block;
+  }
+  .HomeHeaderRightProfile {
+    display: none;
+  }
+  .HomeActivityNotMobile {
+    display: none;
+  }
+  .HomeActivityIstMobile {
+    display: block;
+  }
+}
+/* Tablets and Min Laptops 768px */
+@media only screen and (min-width: 568px) {
+  .HomeHeaderRightMenu {
+    display: none;
+  }
+  .HomeHeaderRightProfile {
+    display: block;
+  }
+  .HomeActivityNotMobile {
+    display: block;
+  }
+  .HomeActivityIstMobile {
+    display: none;
+  }
+}
+/* Desktops and larger screens 1340px*/
+@media only screen and (min-width: 840px) {
+  .HomeHeaderRightMenu {
+    display: none;
+  }
+  .HomeHeaderRightProfile {
+    display: block;
+  }
+}

@@ -1,0 +1,75 @@
+.entries {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+/*  */
+.MainNavBar {
+  left: 0;
+  width: 12rem;
+}
+.HeroSection {
+  right: 18rem;
+  left: 12rem;
+}
+.HomeActivity {
+  right: 0;
+  width: 18rem;
+}
+/*  */
+/* Mobile Devices (portrait and landscape) up to 767px */
+@media only screen and (max-width: 567px) {
+  .MainNavBar {
+    display: none;
+  }
+  .HeroSection {
+    display: none;
+  }
+  .HomeActivity {
+    display: block;
+    width: 100%;
+  }
+}
+/* Tablets and Min Laptops 768px */
+@media only screen and (min-width: 568px) {
+  .MainNavBar {
+    width: 4rem;
+    left: 0;
+    display: block;
+  }
+  .HeroSection {
+    left: 4rem;
+    display: block;
+  }
+  .HomeActivity {
+    display: block;
+  }
+}
+/* Desktops and larger screens 1340px*/
+@media only screen and (min-width: 840px) {
+  .MainNavBar {
+    width: 12rem;
+    left: 0;
+    display: block;
+  }
+  .HeroSection {
+    right: 19rem;
+    left: 12rem;
+    display: block;
+    display: grid;
+  }
+  .HomeActivity {
+    width: 19rem;
+    right: 0;
+    display: block;
+  }
+}
+/*  */
+
+.eachSectionComp {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+}

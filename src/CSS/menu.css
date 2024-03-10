@@ -1,0 +1,63 @@
+.menuEle {
+  display: grid;
+  grid-template-rows: 5rem 1fr 5rem;
+}
+
+.navItem {
+  grid-template-columns: 4rem auto;
+  margin-bottom: 2pt;
+  display: grid;
+  height: 3rem;
+}
+
+.iconDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.labelDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.topMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.bottomMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+/* Mobile Devices (portrait and landscape) up to 767px */
+@media only screen and (max-width: 767px) {
+  .menuEle {
+    display: none;
+  }
+}
+/* Tablets and Min Laptops 768px */
+@media only screen and (min-width: 768px) {
+  .labelDiv {
+    display: none;
+  }
+}
+/* Desktops and larger screens 1340px*/
+@media only screen and (min-width: 1340px) {
+  .labelDiv {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+}
