@@ -1,7 +1,6 @@
 import MidNav from "../MobileMenu/MidNav";
 import NavItem from "../Navbars/NavItem";
 function MainNavBar() {
-
   return (
     <div className="MainNavBar entries">
       <div className="MainNavBarTop">
@@ -14,7 +13,9 @@ function MainNavBar() {
           isBtn: true,
         }} />
       </div>
-      <MidNav data={{ id: `big` }} />
+      <MidNav data={{
+        id: `big`
+      }} />
       <div className="MainNavBarBottom">
         <NavItem data={{
           label: {

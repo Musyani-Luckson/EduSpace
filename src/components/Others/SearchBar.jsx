@@ -5,7 +5,9 @@ function SearchBar() {
             width: `16rem`
         }}>
             <input className="form-control me-2 border" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success border" type="submit"><i class="bi-search"></i></button>
+            <button className="btn btn-outline-success border" type="submit">
+                <i className="bi-search"></i>
+            </button>
         </form>
     )
 }

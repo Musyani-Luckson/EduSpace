@@ -1,0 +1,84 @@
+/* Mobile Devices (portrait and landscape) up to 767px */
+@media only screen and (max-width: 567px) {
+  .headerCourses {
+    display: grid;
+  }
+  .headerCoursesTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/* Tablets and Min Laptops 768px */
+@media only screen and (min-width: 568px) {
+  .headerCourses {
+    display: grid;
+  }
+  .headerCoursesTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/* Desktops and larger screens 1340px*/
+@media only screen and (min-width: 840px) {
+  .headerCourses {
+    display: grid;
+  }
+  .headerCoursesTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.courseInCourses {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  /* height: 6rem; */
+}
+.courseInCoursesImageBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.courseInCoursesMid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.courseInCoursesMidName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  font-weight: bolder;
+}
+.courseInCoursesMidVenue {
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.courseInCoursesMidSuggest {
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.courseInCoursesMidBottomTime {
+  font-size: x-small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+

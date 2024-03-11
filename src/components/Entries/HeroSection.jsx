@@ -5,7 +5,7 @@ function HeroSection() {
     nameClass: `eachSectionComp rounded p-1`
   }
   return (
-    <div className="HeroSection entries borderx rounded p-1 m-1">
+    <div className="HeroSection entries rounded p-1 m-1">
       <Sections data={sectionData} />
     </div>
   )

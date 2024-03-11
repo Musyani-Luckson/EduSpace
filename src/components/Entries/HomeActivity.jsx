@@ -18,7 +18,7 @@ function HomeActivity() {
                         <Sections data={sectionData} />
                     </div>
                     <div className="rounded">
-                        calender
+                    
                     </div>
                 </div>
             </div >

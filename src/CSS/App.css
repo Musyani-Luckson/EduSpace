@@ -2,3 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.btnBudge{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

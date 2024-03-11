@@ -5,7 +5,7 @@ import TimeLaps from "../Others/TimeLaps"
 function NotesSection(props) {
     const { data: { idLink, nameClass } } = props
     return (
-        <div className={`${nameClass} tab-pane active`} id={`${idLink}Notes`}>
+        <div className={`${nameClass} tab-pane fade`} id={`${idLink}Notes`}>
             <div className={`${nameClass} notesHead p-0`}>
                 <div className="notesHeadHeader rounded">
                     <div className="h5 rounded p-1 m-1">

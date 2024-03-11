@@ -13,7 +13,7 @@ function HomeHeader() {
         text: `Username`
     };
     const imageData = {
-        nameClass: `profileIcon rounded shadow m-1`,
+        nameClass: `profileIcon rounded shadow`,
         src: `../images/profile.jpeg`,
         alt: `profileIcon`,
         style: {

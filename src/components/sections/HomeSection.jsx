@@ -2,7 +2,7 @@
 function HomeSection(props) {
     const { data: { idLink, nameClass } } = props
     return (
-        <div className={`${nameClass} tab-pane`} id={`${idLink}Home`}>
+        <div className={`${nameClass} tab-pane active`} id={`${idLink}Home`}>
             <div className={`${nameClass} Head`}>
                 <h3>HOME</h3>
             </div>
